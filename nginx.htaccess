@@ -1,0 +1,3 @@
+location ~* \.(htm)$ {
+    rewrite "^(.*)/(.+?).htm(.*?)$" $1/index.php?$2.htm$3 last;
+}

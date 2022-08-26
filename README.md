@@ -4,6 +4,11 @@
 
 xiuino bbs 开发文档 <https://www.yuque.com/xiand/xiunobbs/vydyme>     
 
+相关论坛：
+* XIUNO学院【主题很漂亮】 https://xiu.no/     
+* Xiuno BBS开源程序交流论坛 https://xiunobbs.cn/    
+* xiuno 中国 https://xiuno.cn/  
+
 ## 安装使用
 使用请下载发布版，集成较少插件。数据库请采用**utf8mb4**，安装完成后，请删除install目录。
 插件和主题，直接上传到**plugin**目录中，后台插件中心开启。
@@ -20,3 +25,5 @@ location ~* \.(htm)$ {
 
 ## 插件下载
 临时插件仓库：[插件主题中心](https://github.com/jiix/plugins)
+
+不用插件，就是一个最简单的论坛，附件都没太好，图片好像都不太行的样子     

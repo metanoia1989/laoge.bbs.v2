@@ -6,6 +6,10 @@ define('INSTALL_PATH', dirname(__FILE__).'/');
 
 define('MESSAGE_HTM_PATH', INSTALL_PATH.'view/htm/message.htm');
 
+if (file_exists(INSTALL_PATH.'install.lock')) {
+	die('已安装!');
+}
+
 // 切换到上一级目录，操作很方便。
 
 $conf = (include APP_PATH.'conf/conf.default.php');
