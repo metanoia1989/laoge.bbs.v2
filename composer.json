@@ -1,0 +1,12 @@
+{
+    "name": "metanoia1989/laoge.bbs.v2",
+    "autoload": {
+    },
+    "authors": [
+        {
+            "name": "Adam Smith",
+            "email": "sogaixli@gmail.com"
+        }
+    ],
+    "require": {}
+}
